@@ -23,11 +23,11 @@ void initUART(void) {
 
 void main(void){
   int keep_pooling;
-  int pulse_count;
-  int sample_number;
+  uint32_t pulse_count;
+  uint32_t sample_number;
   int wave_state = 1;
-  int frequency = 0;
-  int metric = 0;
+  uint32_t frequency = 0;
+  uint32_t metric = 0;
   
   uint32_t ui32SysClock = SysCtlClockFreqSet((SYSCTL_XTAL_25MHZ |
                                               SYSCTL_OSC_MAIN |
@@ -63,14 +63,14 @@ void main(void){
 
       wave_state = aux;
 
-      if (sample_number < 100000) {
+      if (sample_number < 1000000) {
         keep_pooling = 1;
       } else {
         keep_pooling = wave_state;
       }
     }
 
-    frequency = pulse_count/(sample_number*17/24000000);
+    frequency = (pulse_count/31)*(24000000/sample_number);
 
     UARTprintf("frequency: %d; sample_number: %d; pulse_count: %d\n", frequency, sample_number, pulse_count);
   }
