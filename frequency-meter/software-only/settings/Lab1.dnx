@@ -53,7 +53,7 @@
         <LMIFTDIfoundProbes />
     </LMIFTDIDriver>
     <DebugChecksum>
-        <Checksum>1078888302</Checksum>
+        <Checksum>2627448983</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -87,7 +87,8 @@
         <Count>0</Count>
     </Breakpoints>
     <Aliases>
-        <Count>0</Count>
+        <A0>_ "C:\Users\anderson\Downloads\Tiva_IAR8\driverlib\gpio.c" "C:\Users\anderson\Documents\embedded-systems\frequency-meter\software-only\driverlib\gpio.c"</A0>
+        <Count>1</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
 </settings>

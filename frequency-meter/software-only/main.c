@@ -28,12 +28,15 @@ void main(void){
   int wave_state = 1;
   uint32_t frequency = 0;
   uint32_t metric = 0;
+  uint32_t time_base = 0;
+  
+  const int clock_frequency = 24000000;
   
   uint32_t ui32SysClock = SysCtlClockFreqSet((SYSCTL_XTAL_25MHZ |
                                               SYSCTL_OSC_MAIN |
                                               SYSCTL_USE_PLL |
                                               SYSCTL_CFG_VCO_480),
-                                              24000000); // PLL em 24MHz
+                                              clock_frequency); // PLL em 24MHz
   initUART();
   
   SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOK);
@@ -42,6 +45,12 @@ void main(void){
   GPIOPinTypeGPIOInput(GPIO_PORTK_BASE, GPIO_PIN_7);
   GPIOPadConfigSet(GPIO_PORTK_BASE, GPIO_PIN_7, GPIO_STRENGTH_2MA, GPIO_PIN_TYPE_STD_WPU);
 
+
+  SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOJ); // Habilita GPIO J (push-button SW1 = PJ0, push-button SW2 = PJ1)
+  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOJ)); // Aguarda final da habilitação
+    
+  GPIOPinTypeGPIOInput(GPIO_PORTJ_BASE, GPIO_PIN_0); // push-buttons SW1 e SW2 como entrada
+  GPIOPadConfigSet(GPIO_PORTJ_BASE, GPIO_PIN_0, GPIO_STRENGTH_2MA, GPIO_PIN_TYPE_STD_WPU);
 
   while(1) {
 
@@ -70,7 +79,13 @@ void main(void){
       }
     }
 
-    frequency = (pulse_count/31)*(24000000/sample_number);
+    if(GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_0) != GPIO_PIN_0) // Testa estado do push-button SW1
+      time_base = !time_base;
+
+    frequency = (pulse_count/31)*(clock_frequency/sample_number);
+
+    if (time_base)
+    	frequency = frequency/1000;
 
     UARTprintf("frequency: %d; sample_number: %d; pulse_count: %d\n", frequency, sample_number, pulse_count);
   }

@@ -5,76 +5,80 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\startup_ewarm.c</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\driverlib\gpio.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\inc\hw_types.h</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
             <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.pbi</file>
-            <file>$PROJ_DIR$\driverlib\ewarm\Exe\driverlib.a</file>
-            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C1294NC.icf</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$PROJ_DIR$\..\..\..\Downloads\Tiva_IAR8\driverlib\gpio.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$PROJ_DIR$\driverlib\sysctl.h</file>
-            <file>$PROJ_DIR$\inc\hw_types.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\Debug\List\Lab1.map</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\driverlib\gpio.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1294ncpdt.h</file>
-            <file>$PROJ_DIR$\inc\hw_nvic.h</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Exe\Lab1.out</file>
-            <file>$PROJ_DIR$\inc\hw_memmap.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C1294NC.icf</file>
             <file>$PROJ_DIR$\Debug\Obj\Lab1.pbd</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\driverlib\uart.h</file>
-            <file>$PROJ_DIR$\driverlib\pin_map.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
-            <file>$PROJ_DIR$\..\..\..\Downloads\Tiva_IAR8\driverlib\uart.c</file>
+            <file>$PROJ_DIR$\Debug\List\Lab1.map</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\inc\hw_nvic.h</file>
             <file>$PROJ_DIR$\driverlib\uartstdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\Lab1.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\startup_ewarm.c</file>
+            <file>$PROJ_DIR$\driverlib\sysctl.h</file>
+            <file>$PROJ_DIR$\driverlib\uart.h</file>
+            <file>$PROJ_DIR$\inc\tm4c1294ncpdt.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
+            <file>$PROJ_DIR$\driverlib\ewarm\Exe\driverlib.a</file>
+            <file>$PROJ_DIR$\driverlib\pin_map.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\inc\hw_memmap.h</file>
         </outputs>
         <file>
-            <name>[ROOT_NODE]</name>
+            <name>$PROJ_DIR$\Debug\Exe\Lab1.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 26 18</file>
+                    <file> 13</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 11 30 18 29 14 20 32 9</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 13</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 5</file>
+                    <file> 18</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 28</file>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 10</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 11 30 6 7 4 20 3 22 27 15 21 31 35 32</file>
+                    <file> 6 19 7 3 1 21 8 28 33 26 0 27 17 31</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 32 15 22 31 6 4 30 27 21 35 7 20 3 11 33</file>
+                    <file> 31 26 28 27 7 1 19 33 0 17 3 21 8 6 23</file>
                 </tool>
             </inputs>
         </file>
@@ -83,42 +87,36 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 19</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 25</file>
+                    <file> 29</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 8</file>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 5</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 30 6 7 4 20 3 23 16</file>
+                    <file> 19 7 3 1 21 8 16 2</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 20 16 6 3 23 7 4 30</file>
+                    <file> 21 2 7 8 16 3 1 19</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Debug\Exe\Lab1.out</name>
+            <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 18</file>
+                    <file> 22 13</file>
                 </tool>
             </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 10 9 13 19 2 17 14 24</file>
-                </tool>
-            </inputs>
         </file>
     </configuration>
     <configuration>
