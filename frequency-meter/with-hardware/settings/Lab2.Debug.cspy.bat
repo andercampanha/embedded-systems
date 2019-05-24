@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\settings\Lab2.Debug.general.xcl" --backend -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\settings\Lab2.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado\settings\Lab2.Debug.general.xcl" --backend -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado\settings\Lab2.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\settings\Lab2.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\settings\Lab2.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado\settings\Lab2.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado\settings\Lab2.Debug.driver.xcl" 
 
 @echo off 
 :end

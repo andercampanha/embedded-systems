@@ -1,37 +1,37 @@
-"C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\src\startup_ewarm.c"
+"D:\Meus Documentos\Downloads\Lab2-v2_Atualizado\src\startup_ewarm.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\src
+D:\Meus Documentos\Downloads\Lab2-v2_Atualizado\src
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\..\..
+D:\Meus Documentos\Downloads\Lab2-v2_Atualizado\..\..
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware
+D:\Meus Documentos\Downloads\Lab2-v2_Atualizado
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\inc
+D:\Meus Documentos\Downloads\Lab2-v2_Atualizado\inc
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\driverlib
+D:\Meus Documentos\Downloads\Lab2-v2_Atualizado\driverlib
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
+D:\Arquivos de Programas\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
+D:\Arquivos de Programas\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc
+D:\Arquivos de Programas\IAR Systems\Embedded Workbench 8.2\arm\inc
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc\c
+D:\Arquivos de Programas\IAR Systems\Embedded Workbench 8.2\arm\inc\c
 -I
-C:\Users\anderson\Documents\embedded-systems
+D:\Meus Documentos
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware
+D:\Meus Documentos\Downloads\Lab2-v2_Atualizado
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\inc
+D:\Meus Documentos\Downloads\Lab2-v2_Atualizado\inc
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\driverlib
+D:\Meus Documentos\Downloads\Lab2-v2_Atualizado\driverlib
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
+D:\Arquivos de Programas\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
+D:\Arquivos de Programas\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -325,8 +325,8 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -Dewarm=1
 -DPART_TM4C1294NCPDT=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Config_Normal.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="D:\\Arquivos de Programas\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_STRING="D:\\Arquivos de Programas\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Config_Normal.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V8.32.3.193/W32 for ARM"
 -D__ICCARM_OLD_DEFINED_VAARGS__=1
 -D__VA_STACK_ALIGN__=8

@@ -306,7 +306,7 @@
                 </option>
                 <option>
                     <name>IExtraOptions</name>
-                    <state></state>
+                    <state>--require_prototypes</state>
                 </option>
                 <option>
                     <name>CCLangConformance</name>
@@ -603,7 +603,7 @@
                 </option>
                 <option>
                     <name>AOutputFile</name>
-                    <state></state>
+                    <state>$FILE_BNAME$.o</state>
                 </option>
                 <option>
                     <name>ALimitErrorsCheck</name>
@@ -653,7 +653,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state></state>
+                    <state>Lab2.srec</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -2083,5 +2083,11 @@
     </file>
     <file>
         <name>$PROJ_DIR$\src\startup_ewarm.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\driverlib\uartstdio.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\driverlib\uartstdio.h</name>
     </file>
 </project>

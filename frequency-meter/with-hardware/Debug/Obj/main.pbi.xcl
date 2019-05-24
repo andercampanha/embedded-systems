@@ -1,17 +1,17 @@
-"C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\src\main.c"
+"C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado\src\main.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\src
+C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado\src
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\..\..
+C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado\..\..
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware
+C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\inc
+C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado\inc
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\driverlib
+C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado\driverlib
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
 -I
@@ -23,11 +23,11 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc\c
 -I
 C:\Users\anderson\Documents\embedded-systems
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware
+C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\inc
+C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado\inc
 -I
-C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\driverlib
+C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado\driverlib
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
 -I

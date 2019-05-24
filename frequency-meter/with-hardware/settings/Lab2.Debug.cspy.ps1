@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\settings\Lab2.Debug.general.xcl" --backend -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\settings\Lab2.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado\settings\Lab2.Debug.general.xcl" --backend -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado\settings\Lab2.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\settings\Lab2.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\with-hardware\settings\Lab2.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado\settings\Lab2.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\anderson\Documents\embedded-systems\frequency-meter\Lab2-v2_Atualizado\settings\Lab2.Debug.driver.xcl" 
 }
